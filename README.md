@@ -6,15 +6,6 @@
 
 #### 1. Landing Page ✓
 
-- **Hero section** with catchy description and name "TicketFlow"
-- **Wavy SVG background** implemented via CSS `::after` pseudo-element
-- **Decorative circles** (multiple) positioned throughout the hero section
-- **Call-to-Action buttons**: "Login" and "Get Started"
-- **Box-shaped sections** for features with shadows and rounded corners
-- **Max-width: 1440px** centered layout with `.container-app` class
-- **Fully responsive** across mobile, tablet, and desktop
-- **Footer section** included
-
 #### 2. Authentication System ✓
 
 - **Login page** with form validation using Zod schema
@@ -154,10 +145,10 @@
 
 ## How to Run
 
-1. Navigate to the zila directory:
+1. Navigate to the ticket-flow directory:
 
    ```bash
-   cd zila
+   cd ticket-flow
    ```
 
 2. Install dependencies:
