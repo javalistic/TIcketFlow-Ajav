@@ -12,7 +12,7 @@ import {
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-50 to-blue-50/30">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-50 to-blue-50/30 ">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 text-white py-20 md:py-32 overflow-hidden">
         {/* Animated background elements */}
@@ -80,12 +80,12 @@ const LandingPage = () => {
                 {/* Main Dashboard Image Container */}
                 <div className="relative bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
                   {/* Mock Dashboard UI */}
-                  <div className="bg-white rounded-xl shadow-lg p-4 space-y-4">
+                  <div className="bg-white rounded-xl shadow-lg p-4 space-y-4 cursor-pointer ">
                     {/* Header */}
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
-                        <div className="w-6 h-6 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                          <Ticket className="w-4 h-4 text-white" />
+                        <div className="w-6 h-6  rounded-lg flex items-center justify-center">
+                          <Ticket className="w-4 h-4 text-purple-300" />
                         </div>
                         <span className="text-sm font-semibold text-slate-800">
                           TicketFlow
@@ -111,7 +111,7 @@ const LandingPage = () => {
                       ].map((stat, index) => (
                         <div
                           key={index}
-                          className="text-center p-2 bg-slate-50 rounded-lg"
+                          className="text-center p-2 bg-slate-50 rounded-lg "
                         >
                           <div
                             className={`w-3 h-3 ${stat.color} rounded-full mx-auto mb-1`}
@@ -174,15 +174,6 @@ const LandingPage = () => {
                       </div>
                     </div>
                   </div>
-
-                  {/* Floating Elements */}
-                  <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center shadow-lg">
-                    <CheckCircle
-                      className="w-4 h-4 text-white"
-                      aria-hidden="true"
-                    />
-                  </div>
-                  <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full shadow-lg"></div>
                 </div>
 
                 {/* Background Glow */}
