@@ -116,7 +116,15 @@ const Footer = () => {
           </div>
 
           {/* Back to Top */}
-         
+          <div className="flex md:justify-end">
+            <button
+              onClick={scrollToTop}
+              className="w-10 h-10 rounded-lg bg-linear-to-br from-slate-100 to-slate-200 hover:from-slate-200 hover:to-slate-300 border border-slate-300/50 flex items-center justify-center transition-all duration-200 hover:scale-105 group"
+              aria-label="Back to top"
+            >
+              <ArrowUp className="w-4 h-4 text-slate-600 group-hover:text-slate-800 transition-colors" />
+            </button>
+          </div>
         </div>
 
         {/* Bottom Section */}
